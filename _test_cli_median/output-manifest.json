@@ -2,8 +2,8 @@
   "skill": "cloud-removal-gapfilling",
   "skill_version": "1.0.0",
   "command": "cloud-removal-gapfilling --bbox 116 39 117 40 --synthetic --method median --quiet --output-dir ./_test_cli_median",
-  "started_at": "2026-08-03T14:57:27.969994Z",
-  "finished_at": "2026-08-03T14:57:28.184926Z",
+  "started_at": "2026-11-02T14:56:36.311691Z",
+  "finished_at": "2026-11-02T14:56:36.914166Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -16,7 +16,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_median\\cloud_free_composite.tif",
+      "path": "./_test_cli_median/cloud_free_composite.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -33,7 +33,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_median\\cloud_stats.json",
+      "path": "./_test_cli_median/cloud_stats.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -62,7 +62,7 @@
     ]
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "cloud-removal-gapfilling"
   },
   "error": null
